@@ -14,14 +14,17 @@ category:            Game
 build-type:          Simple
 cabal-version:       >=1.8
 
-executable ThemeGacha
-  main-is: ThemeGacha.hs
+executable RemoveAst
+  main-is: RemoveAst.hs
   -- 
   -- other-modules:       
   build-depends:       base ==4.6.*
   hs-source-dirs:      src
 
--- executable ExtractNounX
---   main-is: ExtractNounX.hs
---   build-depends:       base ==4.6.* , split >=0.2.2
---   hs-source-dirs:      src
+executable appNouns
+  main-is: appNouns.hs
+  -- 
+  -- other-modules:       
+  build-depends:       base ==4.6.*, random>=1.0.1.1
+  hs-source-dirs:      src
+
