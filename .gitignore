@@ -9,3 +9,9 @@ cabal-dev
 .cabal-sandbox/
 cabal.sandbox.config
 cabal.config
+
+source.html
+titles.txt
+function_words.txt
+nouns.txt
+chunks.txt
